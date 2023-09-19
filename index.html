@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS level 1</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+
+  <form>
+    <h1>Travel reservation form</h1>
+    <p  style = "text-align: left;">* denotes mandatory</p>
+    <label >Full name*:</label><br>
+    <input type = "text" id = "fullname" name = "fullname" placeholder="FirstName LastName"><br><br>
+
+
+    <label for="email">Email address*:</label><br>
+    <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS"><br><br>
+
+ 
+        <label for="place">Select Tour Package*:</label><br>
+        <select id="place" name="places">
+          <option value="Swat">Swat</option>
+          <option value="Shimla">Shimla</option>
+          <option value="Kashmir">Kashmir</option>
+          <option value="Darjeeling">Darjeeling</option>
+        </select>
+      
+
+    
+      
+      <br><br>
+
+
+   
+    <label for="Arrive">Arrival date*:</label><br>
+  <input type="date" id="Arrive" name="Arrive"><br><br>
+
+
+    <label for = "nmp">Number of persons*:</label><br>
+    <input type = "text" id = "nmp" name = "nmp" placeholder="UNKNOWN_TYPE"><br><br>
+
+   <p style = "text-align: left;">What would you want to avail?*</p>
+    <input type="checkbox" id="plan1" name="plan1" value="Boarding">
+  <label for="plan1"> Boarding</label><br>
+  <input type="checkbox" id="plan2" name="plan2" value="Fooding">
+  <label for="plan2"> Fooding</label><br>
+  <input type="checkbox" id="plan3" name="plan3" value="Sight Seeing">
+  <label for="plan3"> Sight Seeing</label><br><br>
+
+
+    <label for = "dcc">Discount coupon code*:</label><br>
+    <input type = "text" id = "dcc" name = "discountCC" placeholder="UNKNOWN_TYPE"><br><br>
+
+    <p style = "text-align: left;">Terms & Conditions*</p>
+    <input type="radio" id="c1" name="c1" value="nothing">
+  <label >I agree</label>
+  <input type="radio"  name="c2" value="nothing">
+  <label>I disagree</label><br>
+
+    <input type="button" onclick="alert('Reservation Successful')" value="Complete reservation">
+
+  </form>
+</body>
+   
+</html>
